@@ -87,7 +87,7 @@
             
         </div>
         <div class="text-center">
-            <a type="button" class="btn " href="#"> Check availability now</a>
+            <a type="button" class="btn " id="check" href="#" onmouseenter=changeText() onmouseleave=backToNormal()> Check availability now</a>
         </div>
         <hr>
           
@@ -147,5 +147,13 @@
         </div>    
             
     </footer>
+    <script>
+    function changeText() {
+         document.getElementById('check').innerHTML='Los!'
+     }
+     function backToNormal() {
+         document.getElementById('check').innerHTML='Check availability now'
+     }
+    </script>
 </body>
 </html>
