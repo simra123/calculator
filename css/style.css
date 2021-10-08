@@ -1,7 +1,7 @@
 
 /* font family */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 
 
@@ -13,22 +13,22 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family : sans-serif;
-    color: rgba(0, 0, 0, 0.78);
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* main header css   */
 .header {
-    background-color: rgb(11 17 82);
-    height: 80px;
+    background-color: #c3c3c3;
+    height: 70px;
     width: 100%;
-    text-align: center;
-    padding: 20px 0px;
+    border-top: 3px solid black;
+    padding: 10px 10px;
 
 }
 
 h1 {
-    font-size: 43px;
+    font-size: 48px;
     font-weight: 600;
     margin: 30px 0px;
     padding: 0px 70px;
@@ -40,6 +40,12 @@ h1 {
 .advertorial {
     margin-top: 2%;
 }
+.advertorial h2 {
+    color: #555555;
+    font-family: "Open Sans Condensed", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
 .advertorial p {
     font-size: 13px;
     line-height:1.3px;
@@ -50,12 +56,13 @@ h1 {
 
 .content{
     margin: 30px 0px;
-    padding: 0px 80px;
+    padding: 0px 100px;
 }
 .content p {
-    font-size:18px;
+    font-size:19px;
     line-height: 27px;
-    font-weight:400
+    font-weight:400 !important;
+    color: black;
 }
 .content span {
     font-weight: 700;
@@ -63,109 +70,88 @@ h1 {
 .content h2 {
     font-weight:700 !important;
     font-size: 28px;
-    margin: 30px 0px;
+    margin: 40px 0px;
+    color: black;
 
 }
-
-/* check-availability */
-.check-availability{
-
-    border: 3px solid rgb(11 17 82);
-    padding: 40px 20px;
-    margin: 0px 80px;
-    background-color: rgb(167, 237, 230);
-    box-shadow: 0 0 15px 2px rgb(0 0 0 / 50%);
-
+.box-bottom-text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 25px 0px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 150px;
+    color: black;
+    
 }
-.check-availability a {
-    color: rgb(11 17 82) !important ;
-    text-decoration: none;
 
+/* Get Started */
+.get-started{
+    margin: 0px 100px;
+   
+    padding: 25px 25px 25px 25px;
+    background-color: #EBFFEB;
+    border-style: solid;
+    border-color: #C7E5C3;
 }
-.check-availability h2{
+
+.get-started i {
+    font-size: 41px;
+    color: #009402;
+    margin-right: 20px;
+}
+
+.green{
     font-weight: 700;
     margin-bottom: 20px;
+    color: #009402;
+    font-size: 27px;
+    margin: 0px 100px;
 }
-.check-availability p  {
+.get-started p  {
     font-size:19px;
     line-height: 30px;
+    color: black;
 
-}
-.check-availability li {
-    font-size:19px;
-    line-height: 30px;
-    margin-bottom: 15px;
 
 }
 
-.text-center a {
-  background-color: rgb(11 17 82) ;
+
+.text-button a {
+  background-color: #009402;
   color: white;
   font-weight: 700;
-  width: 500px;
-  padding: 25px 0px;
-  margin: 50px 0px;
+  margin: 10px 0px;
   font-size: 24px;
   letter-spacing: 1px;
-  border-radius: 50px;
-  box-shadow: 10px 10px 10px 0 rgb(0 0 0 / 50%);
-}
-.text-center a:hover{
-    color: white;
-}
-
-/* vanders */
-.vanders{
-    margin: 80px 0px;
-}
-.high-w img {
-    height: auto;
-    width: 260px;
-    padding-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+  padding: 22px 22px 22px 22px;
+ 
   
 }
-.small-w img {
-    height: auto;
-    width: 100px;
-}
-.diff-w img {
-    height: auto;
-    width: 150px;
+.text-button a:hover{
+    
+    transform: scale(1.1);
+    transition: all .5s;
+    color: white;
+    background-color: #4F4F4F;
+        
+
 }
 
-/* Testimonials */
-.testimonials {
-    margin: 50px 30px;
-    padding: 25px 25px 25px 25px;
-    background-color: #A7EDE65E;
-    border-radius: 20px 20px 20px 20px;
+/* services section */
+.services{
+    margin: 40px 0px;
+}
+.services img:hover{
+    transform: scale(1.1);
+    transition: all .2s;
+}
+.services img{
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
-    color: #636363C7;
+    padding: 20px 10px ;
 }
-.testimonials h3{
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 30px;
-}
-.testimonials img {
-    border-radius: 50%;
-}
-.testimonials p {
-    font-size: 17px;
-    line-height: 24px;
-}
-.testa  {
-    font-size: 43px;
-    font-weight: 700;
-    color: #636363C7;
-    margin-top: 20px;
-}
-.bottom-text {
-    font-size: 12px;
-    color: rgb(153, 153, 153);
-    font-style: italic;
-    padding: 30px 40px;
-}
+
 
 /* Footer */
 footer {
@@ -175,6 +161,7 @@ footer {
 }
 footer a {
     color: gray;
+    font-size: 15px;
     text-decoration: none;
 }
 footer a:hover {
@@ -182,7 +169,12 @@ footer a:hover {
 }
 
 /* RESPONSIVE CSS */
-
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    .services img{
+        width: 200px !important;
+        padding: 10px 0px ;
+    }
+}
 @media only screen and (min-width: 766px) and (max-width: 990px) {
     h1 {
         padding: 0px 40px;
@@ -190,122 +182,82 @@ footer a:hover {
     .content{
         padding: 0px 40px;
     }    
-    .check-availability{
+    .get-started{
         margin: 0px 30px ;
     }
-    .vanders img{
-        margin: 30px 0px;
+    .green{
+        margin: 0px 30px;
     }
-    .high-w img {
-        height: auto;
-        width: 300px;
-        padding-top: 20px;
-        
+    .advertorial img{
+        width: 600px;
     }
-    .small-w img {
-        height: auto;
-        width: 250px
+    
+    .services img{
+        width: 250px !important;
+        padding: 10px 0px ;
     }
-    .diff-w img {
-        height: auto;
-        width: 250px;
+    .box-bottom-text {
+        padding: 0px 50px;
     }
 
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     h1 {
-        padding: 0px 0px;
+        padding: 0px 40px;
+        font-size: 30px;
     }
     .content{
-        padding: 0px 0px;
+        padding: 0px 40px;
     }    
-    .check-availability{
-        margin: 0px 0px ;
+    .get-started{
+        margin: 0px 30px ;
     }
-    .vanders img{
-        margin: 30px 0px;
+    .green{
+        margin: 0px 30px;
     }
-    .high-w img {
-        height: auto;
-        width: 250px;
-        padding-top: 20px;
-        
+    .get-started p  {
+        font-size:16px;
+        line-height: 20px;
     }
-    .small-w img {
-        height: auto;
-        width: 150px
+    .advertorial img{
+        width: 450px;
     }
-    .diff-w img {
-        height: auto;
-        width: 200px;
+    .services img{
+        width: 280px !important;
+        padding: 10px 0px ;
     }
-    .text-center a {
-        width: 300px;
-        font-size: 20px;
+    .box-bottom-text {
+        padding: 0px 50px;
     }
 }
 @media only screen and (min-width: 360px) and (max-width: 479px){
     h1 {
-        padding: 0px 0px;
-        font-size: 30px;
+        padding: 0px 10px;
+        font-size: 25px;
     }
     .content{
-        padding: 0px 0px;
+        padding: 0px 10px;
     }    
-    .check-availability{
+    .get-started{
         margin: 0px 0px ;
     }
-    .vanders img{
-        margin: 20px 0px;
-    }
-    .high-w img {
-        height: auto;
-        width: 200px;
-        padding-top: 20px;
-        
-    }
-   
-    .content p{
-        font-size: 15px;
-    } 
-    .content h2{
-        font-size: 22px;
-        margin: 10px 0px;
-    } 
-    .check-availability h2{
-        font-weight: 700;
-        margin-bottom: 20px;
-    }
-    .check-availability p  {
-        font-size:15px;
-        line-height: 30px;
-    
-    }
-    .check-availability li {
-        font-size: 15px;
-       margin-bottom: 5px;
-    }
-    .small-w img {
-        height: auto;
-        width: 100px
-    }
-    .testimonials {
-        margin: 20px 30px;
-    }
-    .testa {
-        font-size: 30px !important;
-    }
-    .testimonials p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    .diff-w img {
-        height: auto;
-        width: 130px;
-    }
-    .text-center a {
-        width: 300px;
+    .green{
+        margin: 0px 10px;
         font-size: 20px;
+    }
+    .get-started p  {
+        font-size:16px;
+        line-height: 20px;
+    }
+    .advertorial img{
+        width: 350px;
+    }
+    .services img{
+        width: 280px !important;
+        padding: 10px 0px ;
+    }
+    .box-bottom-text {
+        padding: 0px 20px;
     }
 }
 @media only screen and (min-width: 200px) and (max-width: 359px){
@@ -313,22 +265,23 @@ footer a:hover {
         padding: 0px 0px;
         font-size: 30px;
     }
+    .advertorial img{
+        width: 280px;
+    }
     .content{
         padding: 0px 0px;
-    }    
-    .check-availability{
+    }   
+    .box-bottom-text {
+        padding: 0px 20px;
+    } 
+    .green{
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+    .get-started{
         margin: 0px 0px ;
     }
-    .vanders img{
-        margin: 20px 0px;
-    }
-    .high-w img {
-        height: auto;
-        width: 200px;
-        padding-top: 20px;
-        
-    }
-   
+
     .content p{
         font-size: 15px;
     } 
@@ -336,39 +289,15 @@ footer a:hover {
         font-size: 22px;
         margin: 10px 0px;
     } 
-    .check-availability h2{
+    .get-started h2{
         font-weight: 700;
         margin-bottom: 20px;
     }
-    .check-availability p  {
+    .get-started p  {
         font-size:15px;
         line-height: 30px;
     
     }
-    .check-availability li {
-        font-size: 15px;
-       margin-bottom: 5px;
-    }
-    .small-w img {
-        height: auto;
-        width: 100px
-    }
-    .testimonials {
-        margin: 20px 30px;
-    }
-    .testa {
-        font-size: 30px !important;
-    }
-    .testimonials p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    .diff-w img {
-        height: auto;
-        width: 130px;
-    }
-    .text-center a {
-        width: 200px;
-        font-size: 10px;
-    }
+   
+    
 }
